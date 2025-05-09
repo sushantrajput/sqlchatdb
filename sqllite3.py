@@ -16,10 +16,10 @@ cursor.execute(table_info)
 
 # insert some more records
 
-cursor.execute('''insert into STUDENT values('Rahul', '10', 'A', 90)''')
-cursor.execute('''insert into STUDENT values('Rohit', '10', 'B', 80)''')
-cursor.execute('''insert into STUDENT values('Raj', '10', 'A', 85)''')
-cursor.execute('''insert into STUDENT values('Ravi', '10', 'B', 95)''')
+cursor.execute('''insert into STUDENT values('Sushant', '10', 'A', 90)''')
+cursor.execute('''insert into STUDENT values('Harleen', '10', 'B', 80)''')
+cursor.execute('''insert into STUDENT values('Simran', '10', 'A', 85)''')
+cursor.execute('''insert into STUDENT values('Utkarsh', '10', 'B', 95)''')
 
 # display the results
 print("Inserted records are")
